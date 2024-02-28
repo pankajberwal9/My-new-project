@@ -86,3 +86,20 @@
 	padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
+
+.services li{
+    list-style-type: none;
+    font-size: 13px;
+  
+
+}
+
+.chani-image{
+    width: 250px;
+    height: 250px;
+    border-left: 6px solid;
+    border-bottom: 6px solid;
+    border-top-left-radius: 20px;
+    object-fit:fill;
+}
+
