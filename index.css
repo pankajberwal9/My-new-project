@@ -40,3 +40,49 @@
 	font-size: 20px;
 	border-radius: 22px;
 }
+
+  /*before footer  */
+  .info-section-image{
+	background-image: url('/shape\ 1.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 230px;
+	align-items: center;
+	color: #fff;
+	font-weight: 600;
+	font-size: 20px;
+	text-align: center;
+}
+.info-section-image span
+{
+	margin-bottom: 30px;
+}
+/*  footer */
+.services li{
+    list-style-type: none;
+    font-size: 13px;
+
+}
+/*  */
+.info-section-image.d-flex.justify-content-center {
+	width: 50%;
+}
+.d-flex.bacpic {
+	background-image: url('/3451413.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.info-section-first.col-md-4 {
+	margin-left: 6rem;
+}
+.services {
+	margin-left: -2.5rem;
+}
+.row.py-2.footerrr {
+	padding-bottom: 1.5rem !important;
+	padding-top: 1.5rem !important;
+	padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
