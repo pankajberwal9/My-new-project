@@ -95,11 +95,151 @@
 }
 
 .chani-image{
-    width: 250px;
-    height: 250px;
+    width: 304px;
+    height: 285px;
     border-left: 6px solid;
     border-bottom: 6px solid;
     border-top-left-radius: 20px;
     object-fit:fill;
 }
 
+
+* {
+    box-sizing: border-box;
+  }
+ 
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+ 
+  /* Float four columns side by side */
+  .column1 {
+    float: left;
+    width: 20%;
+    padding: 0 10px;
+  }
+  h2.job2 {
+    font-size: 22px;
+}
+h3.jobp {
+  font-size: 13px;
+  border-top: 1px solid #cacaca;
+  padding-top: 14px;
+  color: grey;
+}
+p.expp {
+  font-size: 13px;
+  color: grey;
+}
+p.depp {
+  font-size: 13px;
+}
+p.quap {
+  font-size: 13px;
+  text-align: right;
+
+}
+p.locp{
+  font-size: 13px;
+}
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+ 
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  h2.headingcol {
+    text-align: center;
+    font-family: arial;
+    font-weight: revert;
+}
+p.paracol {
+    text-align: center;
+    color: grey;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}   
+   
+    .mainbox {
+        padding: 30px;
+    }
+    h3.apply {
+      background: #ffc100;
+      padding-top: 14px;
+      padding-bottom: 13px;
+      width: 115%;
+      margin-left: -16px;
+      font-size: 21px;
+      border-radius: 0 0 6px 6px;
+  }
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        padding: 16px;
+        text-align: center;
+        background-color: #f1f1f1;
+        height: 20.6rem;
+        background-image: url('/secpic.png');
+        background-repeat: no-repeat;
+        background-position: -7rem -4rem;
+        background-size: 75%;
+  
+    }
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column1 {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+ 
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    height: 19rem;
+}
+ /* Style for the outer container with flex display */
+ .join-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background-color: #ffc100;
+	background-image: url('/secpic.png');
+	background-repeat: no-repeat;
+	background-position: -21% -5%;
+
+  }
+
+  /* Style for each inner div */
+  .text-container,
+  .button-container {
+	flex: 1;
+	margin: 0 10px;
+  }
+
+  /* Style for the button */
+  .join-button {
+	padding: 11px 55px;
+	font-size: 16px;
+	background-color: #ffffff;
+	color: #000;
+	border: none;
+	cursor: pointer;
+	border-radius: 30px;
+}
+
+.container-fluid.necon {
+	padding-top: 2%;
+	padding-bottom: 5%;
+	background: #f0f0f0;
+}
